@@ -1,4 +1,30 @@
 body {
-    background-color: red;
+    background-color: blue;
     font-family: "Gill Sans Extrabold", sans-serif;
+    background-image: linear-gradient(blue, gray)
+}
+
+.bio{
+    padding: 30px;
+    background: white;
+    text-align: center;
+    width: 50%;
+    height: 90%;
+    border: solid gray;
+}
+
+.logo{
+      width: 300px;
+      border-radius: 20%;
+      border: 2px solid black;
+      float: left;
+}
+
+.center{
+      display: block;
+      margin: 0 auto;
+}
+
+.content{
+      margin: 70px;
 }
